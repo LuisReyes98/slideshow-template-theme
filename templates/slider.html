@@ -1,0 +1,19 @@
+{% macro slider(values) %}
+  <div data-fadeshow="autoplay">
+
+    {% set_global slider_n = 1 %}
+    {% for x in values %}
+      <input type="radio" name="css-fadeshow" id="slide-{{slider_n}}" />
+      {% set_global slider_n = slider_n + 1 %}
+    {% endfor %}
+
+    <div class="fs-slides">
+      {% for slider_value in values %}
+        <div class="fs-slide">
+          {{ slider_value | safe }}
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+{% endmacro input %}

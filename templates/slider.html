@@ -8,9 +8,9 @@
     {% set_global slider_n = slider_n + 1 %}
   {% endfor %}
 
-  <div class="fs-slides">
+  <div fade_slides>
     {% for slider_value in values %}
-      <div class="fs-slide">
+      <div fade_slide>
         {{ slider_value | safe }}
       </div>
     {% endfor %}

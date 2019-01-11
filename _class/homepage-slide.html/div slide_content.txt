@@ -1,4 +1,0 @@
-content
-absolute
-text-center
-slide-content

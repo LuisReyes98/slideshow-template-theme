@@ -1,4 +1,4 @@
 w-full
-h-screen
 text-black
 text-center
+slide_h

@@ -1,16 +1,38 @@
 <!-- Changed from an imported macro slider to an included template -->
-<div slider_container data-fadeshow="autoplay">
+<div slider_container data-fadeshow="prev-next-nav autoplay">
   {% set_global slider_n = 1 %}
   {% for x in slides %}
     <input type="radio" name="css-fadeshow" id="slide-{{slider_n}}" />
+            
     {% set_global slider_n = slider_n + 1 %}
   {% endfor %}
 
   <div fade_many_slides>
     {% for slider_value in slides %}
-    <div fade_single_slide>
+      <div fade_single_slide>
         {{ slider_value | safe }}
       </div>
     {% endfor %}
   </div>
+  
+  <!-- Prev Navigation -->
+  <div class="fs-prev-nav">
+    {% set_global slider_n = 1 %}
+      {% for x in slides %}
+        <label class="fs-prev-btn" for="slide-{{slider_n}}"></label>
+      
+      {% set_global slider_n = slider_n + 1 %}
+    {% endfor %}
+  </div>
+
+
+  <!-- Next Navigation -->
+  <div class="fs-next-nav">
+    {% set_global slider_n = 1 %}
+      {% for x in slides %}      
+        <label class="fs-next-btn" for="slide-{{slider_n}}"></label>
+      {% set_global slider_n = slider_n + 1 %}
+    {% endfor %}
+  </div> 
+
 </div>

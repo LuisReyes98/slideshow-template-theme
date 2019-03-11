@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAGA,QAAQ;EACN,MAAM,EAAE,IAAI;;AAGd,yBAAyB;EACvB,QAAQ;IACN,MAAM,EAAE,IAAI;AAIhB,yBAAyB;EACvB,QAAQ;IACN,MAAM,EAAE,IAAI;AAGhB,yBAAyB;EACvB,QAAQ;IACN,MAAM,EAAE,IAAI;AAGhB,0BAA0B;EACxB,QAAQ;IACN,MAAM,EAAE,IAAI",
-"sources": ["sass/slide_container.sass"],
-"names": [],
-"file": "slide_container.css"
-}

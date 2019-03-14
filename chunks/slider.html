@@ -14,25 +14,9 @@
       </div>
     {% endfor %}
   </div>
+
+  {% include "chunks/prev_slide.html" %}
+
+  {% include "chunks/next_slide.html" %}
   
-  <!-- Prev Navigation -->
-  <div class="fs-prev-nav">
-    {% set_global slider_n = 1 %}
-      {% for x in slides %}
-        <label class="fs-prev-btn" for="slide-{{slider_n}}"></label>
-      
-      {% set_global slider_n = slider_n + 1 %}
-    {% endfor %}
-  </div>
-
-
-  <!-- Next Navigation -->
-  <div class="fs-next-nav">
-    {% set_global slider_n = 1 %}
-      {% for x in slides %}      
-        <label class="fs-next-btn" for="slide-{{slider_n}}"></label>
-      {% set_global slider_n = slider_n + 1 %}
-    {% endfor %}
-  </div> 
-
 </div>

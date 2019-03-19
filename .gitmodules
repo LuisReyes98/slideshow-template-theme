@@ -1,0 +1,3 @@
+[submodule "stylesheets/fadeshow"]
+	path = stylesheets/fadeshow
+	url = https://github.com/alexerlandsson/css-fadeshow

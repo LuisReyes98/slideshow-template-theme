@@ -12,6 +12,8 @@ overwrite it in your theme if you need a custom height
 this theme is set up to work with [machu pichu](https://github.com/foundpatterns/machu-picchu)
 
 #### [Machu Pichu](https://github.com/foundpatterns/machu-picchu) set up
+In this example the theme is added into a folder call themes
+
 ```
 imports = {
   ...

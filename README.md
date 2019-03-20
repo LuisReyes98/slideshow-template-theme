@@ -1,4 +1,4 @@
-JS less Slide Show component using (Fadeshow)[https://github.com/alexerlandsson/css-fadeshow]
+JS less Slide Show component using [Fadeshow](https://github.com/alexerlandsson/css-fadeshow)
 
 The Slide show default height is
 100vh , to cover the full view port as a Hero Slider
@@ -9,9 +9,9 @@ overwrite it in your theme if you need a custom height
 
 
 ## Usage 
-this theme is set up to work with (machu pichu)[https://github.com/foundpatterns/machu-picchu]
+this theme is set up to work with [machu pichu](https://github.com/foundpatterns/machu-picchu)
 
-#### (Machu Pichu)[https://github.com/foundpatterns/machu-picchu] set up
+#### [Machu Pichu](https://github.com/foundpatterns/machu-picchu) set up
 ```
 imports = {
   ...

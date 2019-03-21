@@ -49,7 +49,7 @@ its broken in the line 8 here:
 ```
 you can comment or erase these lines without any issues.
 
-####Customize your own fadeshow 
+#### Customize your own fadeshow 
 if you wish to use your own forked version of fadeshow, just change the url at ```manifest.scl```
 and add your own here
 ```
